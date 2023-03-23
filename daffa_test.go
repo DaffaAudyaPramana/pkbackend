@@ -47,7 +47,7 @@ import (
 // }
 
 func TestGetDataUser(t *testing.T) {
-	stats := "DOSEN"
+	stats := "Daffa Audya Pramana"
 	data := GetDataUser(stats)
 	fmt.Println(data)
 }
