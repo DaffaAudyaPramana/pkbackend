@@ -1,4 +1,4 @@
-module github.com/GilarYa/ckbackend
+module github.com/DaffaAudyaPramana/pkbackend
 
 go 1.20
 
