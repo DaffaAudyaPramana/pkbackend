@@ -106,7 +106,7 @@ func GetDataPembayaran(stats string) (data []Pembayaran) {
 }
 
 func GetDataPengumuman(stats string) (data []Pengumuman) {
-	user := MongoConnect("proyek-2").Collection("Pengumuman")
+	user := MongoConnect("proyek-2").Collection("pengumuman")
 	filter := bson.M{"program": stats}
 	cursor, err := user.Find(context.TODO(), filter)
 	if err != nil {
@@ -120,7 +120,7 @@ func GetDataPengumuman(stats string) (data []Pengumuman) {
 }
 
 func GetDataKursus(stats string) (data []Kursus) {
-	user := MongoConnect("proyek-2").Collection("Kursus")
+	user := MongoConnect("proyek-2").Collection("kursus")
 	filter := bson.M{"pengajar": stats}
 	cursor, err := user.Find(context.TODO(), filter)
 	if err != nil {
