@@ -12,6 +12,7 @@ import (
 // 		Nama:   "Arya",
 // 		Gender: "Perempuan",
 // 		Email:  "Arya@gmail.com",
+// 		No_hp:  "085722374027"
 // 	}
 // 	insertedID := InsertUser(dbname, user)
 // 	if insertedID == nil {
